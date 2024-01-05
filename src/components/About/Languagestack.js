@@ -1,42 +1,45 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiGit } from "react-icons/di";
+import { DiJava } from "react-icons/di";
+import { PiFileSqlFill } from "react-icons/pi";
 import {
-  SiPostman,
-  SiDocker,
-  SiApachekafka,
-  SiSonarqube,
-  SiJirasoftware,
-  SiJenkins,
+  SiCoursera,
+  SiCplusplus,
+  SiTypescript,
+  SiJavascript,
+  SiPython,
+  SiWolframmathematica,
 } from "react-icons/si";
 
-function Toolstack() {
+function Languagestack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachekafka />
+        <SiCoursera />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSonarqube />
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJirasoftware />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJenkins />
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <PiFileSqlFill />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWolframmathematica />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Languagestack;

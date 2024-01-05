@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+import Languagestack from "./Languagestack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Frameworkstack from "./Frameworkstack";
 
 function About() {
   return (
@@ -34,14 +35,19 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          I Code in These <strong className="purple">Languages</strong>
         </h1>
-
-        <Techstack />
+        <Languagestack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          I know these <strong className="purple">Frameworks/Databases</strong>
+        </h1>
+        <Frameworkstack />
+
+        <h1 className="project-heading">
+          I use these <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
 
