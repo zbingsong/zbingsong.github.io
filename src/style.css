@@ -79,7 +79,9 @@ html {
 
   --fork-btn-inner-hover: #a24dd386; */
 
-  --preloader: #001a33;
+  /* --preloader: #001a33; */
+
+  --preloader: #0c0513;
 
   --webkit-scrollbar-track: #194c73;
 
@@ -111,7 +113,9 @@ html {
 
   --icon-colour: #1c3769;
 
-  --footer: #001533;
+  /* --footer: #001533; */
+
+  --footer: #0a0416;
 
   --blockquote-footer: #88a6c0;
 
@@ -613,10 +617,10 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  object-position: center !important;
 }
 
 .btn-primary {
