@@ -15,10 +15,8 @@ function ProjectCard(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
+          <BsGithub />
         </Button>
-        {"\n"}
-        {"\n"}
 
         {/* If the component contains Demo link, it will render the below component  */}
         {props.demoLink && (
@@ -26,9 +24,9 @@ function ProjectCard(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            style={{ marginLeft: "20px" }}
           >
-            <CgWebsite /> &nbsp;
+            <CgWebsite />
             {"Demo"}
           </Button>
         )}
