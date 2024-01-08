@@ -12,31 +12,25 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue-text"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I am fluent in
-              <i>
-                <b className="purple"> TypeScript, Python, and C</b>
-              </i>
+              <i><b className="blue-text"> TypeScript, Python, and C</b></i>
               .
               <br />
               <br />
               I specialize in 
-              <i>
-                <b className="purple">Full-Stack Development</b>
-                 and
-                <b className="purple">Optimizing Workflow Efficiency</b>
-              </i>
+              <i><b className="blue-text"> Full-Stack Development </b></i>
+              and
+              <i><b className="blue-text"> Workflow Efficiency Optimization</b></i>
               .
               <br />
               <br />
               When developing products, I most frequently use 
-              <i>
-                <b className="purple">Nest.js</b>
-                and
-                <b className="purple">Spring Boot</b>
-              </i>
+              <i><b className="blue-text"> Nest.js </b></i>
+              and
+              <i><b className="blue-text"> Spring Boot</b></i>
               .
             </p>
           </Col>
