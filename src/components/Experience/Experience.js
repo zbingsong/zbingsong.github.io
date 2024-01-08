@@ -15,11 +15,9 @@ function Experience() {
         <Works />
         
         <h1 className="project-heading">
-          My Recent <strong className="blue-text">Works</strong>
+          My Recent <strong className="blue-text">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-          <br />
           The majority of my projects are (unfortunately) proprietory. Below are some of my public projects.
         </p>
         <Projects />
