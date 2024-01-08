@@ -11,7 +11,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Originally Designed and Developed by 
+            Originally Designed by&nbsp;
             <a
                 href="https://github.com/soumyajit4419/Portfolio"
                 style={{ color: "white" }}
@@ -19,7 +19,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
               Soumyajit Behera
-            </a>
+            </a>, Developed by BZ
           </h3>
         </Col>
         
