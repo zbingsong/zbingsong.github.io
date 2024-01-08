@@ -22,11 +22,7 @@ function Footer() {
             </a>
           </h3>
         </Col>
-      </Row>
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} BZ</h3>
-        </Col>
+        
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
@@ -50,6 +46,10 @@ function Footer() {
               </a>
             </li>
           </ul>
+        </Col>
+
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} BZ</h3>
         </Col>
       </Row>
     </Container>
