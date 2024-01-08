@@ -8,6 +8,7 @@ import {
   SiSonarqube,
   SiJirasoftware,
   SiJenkins,
+  SiGooglecloud,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,6 +19,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApachekafka />
