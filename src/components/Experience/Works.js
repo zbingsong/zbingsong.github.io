@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import WorkCard from "./WorkCard";
-import kmsoft from "../../Assets/Companies/kmsoft.png";
-import petkeley from "../../Assets/Companies/petkeley.jpeg";
+import kmsoft from "../../Assets/Experience/Companies/kmsoft.png";
+import petkeley from "../../Assets/Experience/Companies/petkeley.jpeg";
 
 function Works() {
   return (

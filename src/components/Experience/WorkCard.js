@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import no_image from "../../Assets/Projects/no_image.jpg";
+import no_image from "../../Assets/Experience/no_image.jpg";
 
 function WorkCard(props) {
   return (

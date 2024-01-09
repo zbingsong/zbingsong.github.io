@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import no_image from "../../Assets/Projects/no_image.jpg";
+import no_image from "../../Assets/Experience/no_image.jpg";
 
 function ProjectCard(props) {
   return (

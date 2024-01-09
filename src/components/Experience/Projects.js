@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import event_browser from "../../Assets/Projects/event_browser.jpg";
-import findollar from "../../Assets/Projects/findollar.jpeg";
-import sonarqube from "../../Assets/Projects/sonarqube.jpg";
+import event_browser from "../../Assets/Experience/Projects/event_browser.jpg";
+import findollar from "../../Assets/Experience/Projects/findollar.jpeg";
+import sonarqube from "../../Assets/Experience/Projects/sonarqube.jpg";
 
 function Projects() {
   return (
