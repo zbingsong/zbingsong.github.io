@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import event_browser from "../../Assets/Experience/Projects/event_browser.jpg";
-import findollar from "../../Assets/Experience/Projects/findollar.jpeg";
 import sonarqube from "../../Assets/Experience/Projects/sonarqube.jpg";
 
 function Projects() {
@@ -32,15 +31,6 @@ function Projects() {
           title="SonarJava Quick Tutorial"
           description="The first comprehensive tutorial on SonarJava, a Java language plugin for SonarQube. The tutorial contains a quick introduction to SonarJava, its main classes, and examples of custom rules."
           ghLink="https://github.com/zbingsong/sonarjava-quick-tutorial"
-        />
-      </Col>
-
-      <Col md={4} className="project-card">
-        <ProjectCard
-          imgPath={findollar}
-          title="Findollar Backend"
-          description="(Deprecated) Nest.js backend for Findollar (formerly LuckyMarket), a second-hand item trading and social media app in development, featuring full functions of JWT authentication and making use of Redis, MongoDB, and PostgreSQL."
-          ghLink="https://github.com/zbingsong/lucky-market-nestjs"
         />
       </Col>
     </Row>
